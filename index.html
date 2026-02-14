@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The first yes</title>
+    <meta name="description" content="The first yes. Principles, who we are, contact, and people we have helped." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#principles">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <div class="brand">
+          <h1 class="title">The first yes</h1>
+          <p class="tagline">A small start can change someone's whole week.</p>
+        </div>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" type="button">
+          Menu
+        </button>
+
+        <nav class="nav" id="site-nav" aria-label="Sections">
+          <a href="#principles">Our principles</a>
+          <a href="#about">Who we are</a>
+          <a href="#contact">Contact</a>
+          <a href="#impact">People we have helped</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h2>One "yes" can open a door.</h2>
+            <p>
+              We connect people who have been pushed out of opportunities with real, doable paths back in.
+              Sometimes it's a job lead, sometimes it's guidance, sometimes it's just not being ignored.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#contact">Get in touch</a>
+              <a class="btn btn-ghost" href="#impact">See impact</a>
+            </div>
+          </div>
+
+          <div class="hero-card" role="note" aria-label="Quick note">
+            <p class="small">
+              This page is intentionally simple. You can host it on GitHub Pages and connect your domain later.
+            </p>
+            <ul class="mini-list">
+              <li>Single page</li>
+              <li>Fast loading</li>
+              <li>Easy to edit</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="principles">
+        <div class="container">
+          <h3>Our principles</h3>
+          <p class="lead">
+            We keep it practical and respectful. No speeches, no savior vibe, just consistent work and honest support.
+          </p>
+
+          <div class="grid">
+            <article class="card">
+              <h4>Dignity first</h4>
+              <p>
+                People are not their worst day. We speak plainly, we listen, and we don't treat anyone like a case file.
+              </p>
+            </article>
+
+            <article class="card">
+              <h4>Second chances work</h4>
+              <p>
+                Recovery, disability, gaps in work history, or tough circumstances shouldn't be a permanent sentence.
+              </p>
+            </article>
+
+            <article class="card">
+              <h4>Real opportunities</h4>
+              <p>
+                We focus on specific steps: contacts, preparation, and follow-up. Small wins, then bigger ones.
+              </p>
+            </article>
+
+            <article class="card">
+              <h4>Privacy matters</h4>
+              <p>
+                We protect identities and sensitive details. We share stories only with clear consent.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="about">
+        <div class="container split">
+          <div>
+            <h3>Who we are</h3>
+            <p class="lead">
+              We are a small team that believes the first "yes" is the hardest one to get, and the most powerful.
+            </p>
+            <p>
+              Some of us have worked with community programs, others in hiring or training. We learned that talent is
+              everywhere, but access is not. So we built something simple: help people reach the next step without
+              making them jump through extra hoops.
+            </p>
+            <p class="small">
+              Replace this with your real story. A short anecdote works well, like "It started when..." and one specific moment.
+            </p>
+          </div>
+
+          <div class="highlight">
+            <h4>What we do</h4>
+            <ul class="list">
+              <li>Guidance to rebuild a work path</li>
+              <li>Connections to inclusive employers</li>
+              <li>Basic preparation (CV, interview, documentation)</li>
+              <li>Follow-up so people are not left hanging</li>
+            </ul>
+
+            <a class="link" href="#contact">Contact us to collaborate</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <h3>Contact</h3>
+          <p class="lead">
+            If you are someone looking for support, or an organization that wants to partner, write us.
+          </p>
+
+          <div class="grid contact-grid">
+            <div class="card">
+              <h4>Email</h4>
+              <p class="small">You can keep this as a public email, even before your domain is ready.</p>
+              <p><a href="mailto:hello@thefirstyes.org">hello@thefirstyes.org</a></p>
+            </div>
+
+            <div class="card">
+              <h4>Social</h4>
+              <p class="small">Add links when you have them.</p>
+              <ul class="list">
+                <li><a href="#" aria-disabled="true">Instagram</a></li>
+                <li><a href="#" aria-disabled="true">LinkedIn</a></li>
+                <li><a href="#" aria-disabled="true">WhatsApp</a></li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h4>Message</h4>
+
+              <form
+                class="form"
+                id="contactForm"
+                action="https://formspree.io/f/mqedqqrp"
+                method="POST"
+              >
+                <label>
+                  Name
+                  <input name="name" type="text" placeholder="Your name" autocomplete="name" required />
+                </label>
+
+                <label>
+                  Email
+                  <input name="email" type="email" placeholder="you@email.com" autocomplete="email" required />
+                </label>
+
+                <label>
+                  Message
+                  <textarea name="message" rows="4" placeholder="Tell us what you need" required></textarea>
+                </label>
+
+                <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+                <button class="btn" type="submit">Send</button>
+                <p class="small note" id="formNote" aria-live="polite"></p>
+              </form>
+
+              <p class="small">
+                This form sends directly to Formspree. No mail app, no redirects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="impact">
+        <div class="container">
+          <h3>People we have helped</h3>
+          <p class="lead">
+            Short stories, concrete outcomes, and only what you are comfortable sharing.
+          </p>
+
+          <div class="grid">
+            <article class="card">
+              <h4>Case 01</h4>
+              <p class="small">Role: Customer support trainee</p>
+              <p>
+                After a long gap, they got a first interview in months. We helped refine the CV and practice answers.
+                Result: hired part-time, then moved to full-time in 6 weeks.
+              </p>
+            </article>
+
+            <article class="card">
+              <h4>Case 02</h4>
+              <p class="small">Role: Warehouse assistant</p>
+              <p>
+                Needed documentation and a clear plan. We guided the steps and connected them to an inclusive employer.
+                Result: stable schedule and benefits.
+              </p>
+            </article>
+
+            <article class="card">
+              <h4>Case 03</h4>
+              <p class="small">Role: Intern (admin)</p>
+              <p>
+                Had anxiety about interviews, honestly, it was heavy. We did mock interviews and a simple script.
+                Result: internship offer, then reference letter for the next job.
+              </p>
+            </article>
+          </div>
+
+          <div class="footer-cta">
+            <p class="small">
+              Want this section as a timeline or with photos later? Easy upgrade.
+            </p>
+            <a class="btn btn-ghost" href="#top">Back to top</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="small">© <span id="year"></span> The first yes. All rights reserved.</p>
+        <p class="small">Built for GitHub Pages.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
