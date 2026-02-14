@@ -1,0 +1,27 @@
+<form
+  class="form"
+  id="contactForm"
+  action="https://formspree.io/f/mqedqqrp"
+  method="POST"
+>
+  <label>
+    Name
+    <input name="name" type="text" placeholder="Your name" autocomplete="name" required />
+  </label>
+
+  <label>
+    Email
+    <input name="email" type="email" placeholder="you@email.com" autocomplete="email" required />
+  </label>
+
+  <label>
+    Message
+    <textarea name="message" rows="4" placeholder="Tell us what you need" required></textarea>
+  </label>
+
+  <!-- Opcional, útil para filtrar spam -->
+  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+  <button class="btn" type="submit">Send</button>
+  <p class="small note" id="formNote" aria-live="polite"></p>
+</form>
